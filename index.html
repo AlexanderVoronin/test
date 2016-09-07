@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.outer {
+		    width: 200px;
+		    height: 200px;
+		    text-align: center;
+		    background-color: #ffc;
+		    font-size: 0;
+		}
+
+		.outer:before{
+			content: '';
+			display: inline-block;
+			height: 100%;
+			vertical-align: middle;
+		}
+
+		.inner {
+		    line-height: 20px;
+		    vertical-align: middle;
+		    display: inline-block;
+		    background-color: #fcc;
+		    font-size: medium;
+		}
+	</style>
+</head>
+<body>
+	<div class="outer">
+	    <div class="inner">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, quia!</div>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae laudantium autem, veritatis, minima ullam obcaecati adipisci vel amet omnis, eligendi ex soluta totam aspernatur culpa earum commodi dolorem iste est.</p>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae laudantium autem, veritatis, minima ullam obcaecati adipisci vel amet omnis, eligendi ex soluta totam aspernatur culpa earum commodi dolorem iste est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos harum dignissimos reiciendis dolore omnis aspernatur eligendi, expedita odio, magni aliquid architecto repudiandae aliquam eos, impedit. Rerum veritatis delectus, velit atque!</p>
+	</div>
+</body>
+</html>
